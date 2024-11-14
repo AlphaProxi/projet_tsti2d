@@ -2,8 +2,8 @@
 #include <WiFiClient.h> // Bibliothèque pour le client WiFi
 #include <WiFiUdp.h> // Bibliothèque pour la communication UDP
 
-const char *ssid = "OnePlus 9";             // Définir le SSID (nom du réseau Wi-Fi)
-const char *password = "tropfacile";        // Définir le mot de passe du réseau Wi-Fi
+const char *ssid = "";             // Définir le SSID (nom du réseau Wi-Fi)
+const char *password = "";        // Définir le mot de passe du réseau Wi-Fi
 const unsigned int localUdpPort = 12345;
 const IPAddress receiverIP(192, 168, 198, 238); // Adresse IP de destination pour les paquets UDP
 
