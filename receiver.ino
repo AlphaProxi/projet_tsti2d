@@ -2,8 +2,8 @@
 #include <WiFi.h>       // Inclusion de la bibliothèque pour gérer le Wi-Fi
 #include <WiFiUdp.h>    // Inclusion de la bibliothèque pour gérer la communication UDP
 
-const char *ssid = "OnePlus 9"; // SSID de votre réseau Wi-Fihttps://github.com/sVer0X/projet_tsti2d/blob/main/receiver
-const char *password = "tropfacile"; // Mot de passe de votre réseau Wi-Fi
+const char *ssid = ""; // SSID de votre réseau Wi-Fi
+const char *password = ""; // Mot de passe de votre réseau Wi-Fi
 const unsigned int localUdpPort = 12345; // Port UDP local à écouter
 
 WiFiUDP udp; // Création d'un objet UDP pour gérer la communication UDP
